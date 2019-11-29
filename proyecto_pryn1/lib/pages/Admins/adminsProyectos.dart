@@ -85,7 +85,7 @@ class ItemList extends StatelessWidget {
                   color: Colors.orangeAccent,
                 ),
                 subtitle: new Text(
-                  "Calificación Actual: ${list[i]['puntajeEval3']}",
+                  "Calificación Actual: ${list[i]['puntajeTotal']}",
                   style:TextStyle(fontSize: 20.0, color: Colors.black),
                 ),
               ),
